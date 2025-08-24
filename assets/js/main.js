@@ -1,4 +1,3 @@
-// Main JavaScript file for the portfolio website
 
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -183,4 +182,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
+
 });
