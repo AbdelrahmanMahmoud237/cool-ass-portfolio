@@ -1,3 +1,4 @@
+// Main JavaScript file for the portfolio website
 
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -134,7 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Show success message (for demo)
                 alert('Thank you for your message! I will get back to you soon.');
                 
-                // Reset form
                 contactForm.reset();
             } else {
                 alert('Please fill in all required fields.');
@@ -182,5 +182,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
-
 });
